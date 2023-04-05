@@ -44,12 +44,12 @@ app.use(userRouter);
 
 const PORT = 3002;
 
-app.get("/", (req,res) => {
-  res.status(200).json({message: "server is running"});
+app.get("/", (req,res) => {<br>
+  res.status(200).json({message: "server is running"});<br>
 });
 
-app.listen(PORT , () => {
-  console.log(`Server is running at http://localhost${PORT}`);
+app.listen(PORT , () => {<br>
+  console.log(`Server is running at http://localhost${PORT}`);<br>
 });
 
 
@@ -60,7 +60,7 @@ app.listen(PORT , () => {
 
 const router = require("express").Router();
 
-router.get("/", getAllUsers)
+router.get("/", getAllUsers)<br>
 router.get("/", getAllUsers)
 
 module.exports = router;
