@@ -27,11 +27,11 @@ In package.json in "scripts":{....} add:
 
 ### src/index.js content:
 
-const express = require("express");
-const cors = require("cors");
-const morgan = require("morgan");
-const bodyParser = require("body-parser");
-const userRouter = require("./routes/users.js");
+const express = require("express");<br>
+const cors = require("cors");<br>
+const morgan = require("morgan");<br>
+const bodyParser = require("body-parser");<br>
+const userRouter = require("./routes/users.js");<br>
 
 const app = express();
 
