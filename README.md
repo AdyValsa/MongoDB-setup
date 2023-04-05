@@ -35,9 +35,9 @@ const userRouter = require("./routes/users.js");<br>
 
 const app = express();
 
-app.use(cors());
-app.use(morgan("dev"));
-app.use(bodyParser.json());
+app.use(cors());<br>
+app.use(morgan("dev"));<br>
+app.use(bodyParser.json());<br>
 app.use(bodyParser.urlencoded({extended : true}));
 
 app.use(userRouter);
