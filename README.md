@@ -190,9 +190,9 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(openapiSpecification));
  *        content:
  *          application/json:
  *            schema:
- *                $ref: '#/components/schemas/Student'
+ *                $ref: '#/components/schemas/User'
  *      404:
- *        description: the student with this id was not found
+ *        description: the user with this id was not found
  *      500:
  *        description: server error
  */
